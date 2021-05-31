@@ -31,11 +31,40 @@ body {
   }
 }
 
-// Text input
-input[type="text"] {
-  border: 0 none;
-  width: 10rem;
+// Form
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+// Text input
+.input {
+  outline: none;
+  background-color: lightgray;
+  width: 250px;
+  height: 1.5rem;
+  border: none;
+  border-bottom: 2px solid gray;
+  margin-bottom: 8px;
+  color: rgb(18, 53, 156);
+  font-size: 0.95rem;
+}
+
+// Button
+.button {
+  width: 6rem;
+  height: 2rem;
+  background-color: transparent;
+  border: 1px solid rgb(18, 53, 156);
+  border-radius: 5px;
+  color: rgb(18, 53, 156);
+  font-family: "Indie Flower", Arial, Helvetica, sans-serif;
+
+  &:hover {
+    box-shadow: inset 0 0 10px rgba(18, 52, 156, 0.493);
+  }
+}
+
 // Every other list item
 li:nth-child(2n) {
   background-color: orange;

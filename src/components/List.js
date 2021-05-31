@@ -23,8 +23,14 @@ const List = (props) => {
   }
   return (
     <form onSubmit={submitHandle}>
-      <input type="text" value={userInput} onChange={changeHandle} />
-      <input type="submit" value="Add" />
+      <input
+        className="input"
+        type="text"
+        placeholder="Write your ToDo here"
+        value={userInput}
+        onChange={changeHandle}
+      />
+      <input className="button" type="submit" value="Add To List" />
     </form>
   );
 };
