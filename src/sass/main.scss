@@ -1,0 +1,57 @@
+@font-face {
+  src: url("../fonts/IndieFlower-Regular.ttf");
+  font-family: "Indie Flower";
+}
+
+// Body Setup
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: lightgray;
+  font-family: "Indie Flower", Arial, Helvetica, sans-serif;
+}
+
+// Header
+.note {
+  width: 250px;
+  height: 250px;
+  background-image: url("../images/note.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: 1px dashed red;
+
+  h1 {
+    font-size: 2rem;
+    position: relative;
+    top: 3.5rem;
+    left: 4.5rem;
+    transform: rotate(-15deg);
+    color: rgb(18, 53, 156);
+  }
+}
+
+// Text input
+input[type="text"] {
+  border: 0 none;
+  width: 10rem;
+}
+// Every other list item
+li:nth-child(2n) {
+  background-color: orange;
+}
+// To remove style from list
+li {
+  list-style: none;
+}
+
+// Footer
+.footer {
+  background-color: gray;
+  width: 100vw;
+  height: 3rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
