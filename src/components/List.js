@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { v4 as uuidv4 } from "uuid";
 
 const List = (props) => {
   // console.log(props);
@@ -15,7 +16,7 @@ const List = (props) => {
     if (userInput.length) {
       props.setList((prevState) => [
         ...prevState,
-        { id: prevState.length, title: userInput.trim(), done: false },
+        { id: uuidv4(), title: userInput.trim(), done: false },
       ]);
       setUserInput("");
     }
