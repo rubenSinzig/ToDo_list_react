@@ -3,7 +3,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <p>
-        Copyrights <sup>®</sup> {year}{" "}
+        Copyrights<sup>®</sup> {year}{" "}
       </p>
     </div>
   );

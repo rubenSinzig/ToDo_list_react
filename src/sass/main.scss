@@ -52,6 +52,7 @@ form {
   margin-bottom: 8px;
   color: rgb(18, 53, 156);
   font-size: 0.95rem;
+  font-family: "Indie Flower", Arial, Helvetica, sans-serif;
 }
 
 // Button
@@ -117,4 +118,7 @@ li:nth-child(2n) {
   position: absolute;
   left: 0;
   bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
