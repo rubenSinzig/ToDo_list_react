@@ -1,8 +1,8 @@
 ![File Icon](/src/images/readme-icon.png)
 
-## Project Name
+## ToDo-List React
 
-**[View Project](#)**
+**[View Project](https://rubensinzig.github.io/ToDo-React/)**
 
 ---
 
@@ -22,20 +22,20 @@
 
 ---
 
-[![Screenshot from Project](/src/images/readme-screenshot.png)](#)
+[![Screenshot from Project](/src/images/project-screenshot.png)](https://rubensinzig.github.io/ToDo-React/)
 
 ### About Project
 
-Project description
+ToDo-List create with react
 
 ##### Developed With
 
-- [ ] _HTML5_
+- [x] _HTML5_
 - [ ] _CSS3_
 - [ ] _SASS_
-- [ ] _SCSS_
-- [ ] _JavaScript_
-- [ ] _React_
+- [x] _SCSS_
+- [x] _JavaScript_
+- [x] _React_
 - [ ] _Bootstrap_
 - [ ] _..._
 
