@@ -2,7 +2,7 @@
 
 ## ToDo-List React
 
-**[View Project](https://rubensinzig.github.io/ToDo-React/)**
+**[View Project](https://rubensinzig.github.io/ToDo_list_react/)**
 
 ---
 
@@ -22,7 +22,7 @@
 
 ---
 
-[![Screenshot from Project](/src/images/project-screenshot.png)](https://rubensinzig.github.io/ToDo-React/)
+[![Screenshot from Project](/src/images/project-screenshot.png)](https://rubensinzig.github.io/ToDo_list_react/)
 
 ### About Project
 
